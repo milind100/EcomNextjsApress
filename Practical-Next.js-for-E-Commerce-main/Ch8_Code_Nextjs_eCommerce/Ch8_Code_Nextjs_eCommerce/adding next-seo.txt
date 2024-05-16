@@ -1,4 +1,0 @@
-    <NextSeo
-      title="Macaron Magic"
-      description="Great tasting home-made macarons"
-    />

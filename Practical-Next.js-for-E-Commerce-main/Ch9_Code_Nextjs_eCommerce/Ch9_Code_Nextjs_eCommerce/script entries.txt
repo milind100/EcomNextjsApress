@@ -1,3 +1,0 @@
-    "cypress": "cypress open",
-    "cypress:headless": "cypress run --browser chrome --headless",
-    "cypress:component": "cypress run --component"
