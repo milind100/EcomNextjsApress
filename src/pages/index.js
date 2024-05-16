@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 import Link from "next/link";
 import PerfectBanner from "./PerfectBanner";
 import Newsletter from "./Newsletter";
-// import {client} form "../lib/client"
+import { client } from "../lib/client";
 
 export default function Home() {
   return (

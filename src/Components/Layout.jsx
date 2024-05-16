@@ -2,6 +2,7 @@ import Head from "next/head";
 import React from "react";
 import NavBar from "./NavBar";
 import DemoBanner from "./DemoBanner";
+import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
@@ -36,7 +37,9 @@ const Layout = ({ children }) => {
       </header>
       <div className="layout">
         <main className="main-container">{children}</main>
-        <footer></footer>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </>
   );
